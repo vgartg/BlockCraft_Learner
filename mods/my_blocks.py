@@ -9,7 +9,7 @@ BLOCKS = { # Определяется список блоков
         'breakable': False, # Можно ли сломать блок (False - нельзя сломать; True - можно)
         'solid': False,  # Является ли блок твердым (False - не твердый, можно проходить через него; True - твердый, нельзя проходить насквозь)
     },
-    
+
     'grass': {
         'name': 'Трава',
         'breakable': True,
@@ -17,28 +17,28 @@ BLOCKS = { # Определяется список блоков
         'texture': 'assets/textures/grass.png',  # Путь к файлу текстуры из папки /assets/textures
         # Если не указывать текстуру, будет подставляться RGB-цвет, который определен в функции ядра игры get_block_color
     },
-    
+
     'dirt': {
         'name': 'Земля',
         'breakable': True,
         'solid': True,
         'texture': 'assets/textures/dirt.png',
     },
-    
+
     'stone': {
         'name': 'Камень',
         'breakable': True,
         'solid': True,
         'texture': 'assets/textures/stone.png',
     },
-    
+
     'wood': {
         'name': 'Дерево',
         'breakable': True,
         'solid': True,
         'texture': 'assets/textures/wood.png',
     },
-    
+
     'leaf': {
         'name': 'Листва',
         'breakable': True,
