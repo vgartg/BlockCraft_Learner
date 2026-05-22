@@ -118,7 +118,3 @@ The [`ci` workflow](.github/workflows/ci.yml) runs on every push and pull reques
 2. `lint` job — `ruff check` and `ruff format --check` on the latest Python
 
 Both jobs run in parallel and the workflow uses GitHub's `concurrency` group so a new push cancels the previous in-flight run on the same branch
-
-## License
-
-Released under the [MIT License](LICENSE.txt)
